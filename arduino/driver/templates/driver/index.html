@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+
+{% endblock %}
+
+{% block content %}
+    <h1 class="mb-5"> Postsff:</h1>
+    {% for p in post %}
+
+        <p>
+            {{p}}
+        </p>
+
+    {%endfor%}
+{% endblock %}
